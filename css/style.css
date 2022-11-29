@@ -64,6 +64,8 @@ p {
 .outside {
     border: 1px solid #E5E7EB;
     border-radius: 0.5rem;
+    width: 40%;
+    height: 60%;
 }
 
 a {
@@ -77,7 +79,6 @@ ul {
     margin: 0;
     padding: 0;
     list-style: none;
-    max-width: 300px;
 }
 
 .btn-hero {
