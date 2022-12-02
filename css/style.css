@@ -62,10 +62,10 @@ p {
 }
 
 .outside {
+    flex: 0 0 300px;
     border: 1px solid #E5E7EB;
     border-radius: 0.5rem;
-    width: 40%;
-    height: 60%;
+    width: 100%;
 }
 
 a {
@@ -75,6 +75,7 @@ a {
 
 ul {
     display: flex;
+    flex-wrap: wrap;
     gap: 1rem;
     margin: 0;
     padding: 0;
@@ -158,12 +159,13 @@ ul {
 }
 
 .sign-up-box {
-    flex: 1 1 auto;
+    flex: 0 1 auto;
     gap: 1rem;
     background-color: #3882F6;
     color: #F9FAF8;
     border-radius: 0.5rem;
     display: flex;
+    flex-wrap: wrap;
     justify-content: space-between;
     align-items: center;
     margin: 0 15rem;
