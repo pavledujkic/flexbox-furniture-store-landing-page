@@ -62,7 +62,7 @@ p {
 }
 
 .outside {
-    flex: 0 0 300px;
+    flex: 0 0 265px;
     border: 1px solid #E5E7EB;
     border-radius: 0.5rem;
     width: 100%;
